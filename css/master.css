@@ -1,0 +1,640 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.head__top .row figure {
+  width: 200px;
+  height: 70px;
+}
+.head__top .row figure img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.head__top .row .navmenu ul li a {
+  color: #4e517c;
+  font-weight: 500;
+  position: relative;
+  transition: 0.4s;
+}
+.head__top .row .navmenu ul li a:hover {
+  color: #4f3dd1;
+}
+.head__top .row .navmenu ul li a:hover::after {
+  bottom: 40px;
+  opacity: 1;
+  visibility: visible;
+}
+.head__top .row .navmenu ul li a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 40%;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #4f3dd1;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.4s;
+}
+.head__top .row .box a li {
+  font-size: 40px;
+  color: #4e517c;
+  font-weight: 500;
+}
+.head__top .row .box div a {
+  border-radius: 3rem 0 3rem 3rem;
+  background-color: #e74a59;
+  padding: 5px 30px;
+  color: white;
+  font-weight: 500;
+}
+
+.page1 div h4 {
+  color: #4e517c;
+  font-size: 25px;
+  font-weight: 0;
+  position: relative;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.page1 div h4::after {
+  content: "";
+  position: absolute;
+  top: 17px;
+  right: -65px;
+  width: 50px;
+  height: 2px;
+  background-color: #4f3dd1;
+}
+.page1 div h4::before {
+  content: "";
+  position: absolute;
+  top: -17px;
+  right: -20px;
+  width: 13px;
+  height: 13px;
+  background-color: rgba(78, 61, 209, 0.6352941176);
+  border-radius: 50%;
+}
+.page1 div h1 {
+  font-family: "Roboto", sans-serif;
+  color: #1d1585;
+  position: relative;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.page1 div h1::after {
+  content: "|";
+  position: absolute;
+  right: -50px;
+  color: #1d1585;
+  width: 100%;
+  background-color: white;
+  animation: typing 3s steps(22) infinite alternate;
+}
+@keyframes typing {
+  to {
+    width: 0;
+  }
+}
+.page1 div a {
+  padding: 13px 38px;
+  border-radius: 3rem 0 3rem 3rem;
+  color: white;
+  background-color: #4f3dd1;
+  font-weight: 500;
+}
+.page1 div h6 {
+  color: #4e517c;
+  line-height: 30px;
+}
+.page1 .figure-img1 {
+  width: 800px;
+  height: 500px;
+  overflow: hidden;
+  animation: figure1 3s linear infinite;
+}
+.page1 .figure-img1 img {
+  width: 50%;
+  border-radius: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.page1 .scroll-downn span {
+  background-color: inherit;
+  position: relative;
+  animation: scroll-down 2s linear infinite alternate;
+}
+.page1 .scroll-downn span i {
+  font-size: 25px;
+}
+
+@keyframes scroll-down {
+  0% {
+    transform: translateY(-7px);
+  }
+  50% {
+    transform: translateY(3px);
+  }
+  100% {
+    transform: translateY(-2px);
+  }
+}
+.page2 .row h2 {
+  font-size: 50px;
+  color: #1d1585;
+  font-family: "Roboto", sans-serif;
+}
+.page2 .row h4 {
+  color: #4e517c;
+}
+.page2 .row a {
+  font-weight: 500;
+  color: #e74a59;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  text-decoration: underline;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.page2 .aboutme h4 {
+  color: #4e517c;
+  font-weight: 500;
+  position: relative;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.page2 .aboutme h4::after {
+  content: "";
+  position: absolute;
+  top: 17px;
+  right: -50px;
+  width: 50px;
+  height: 2px;
+  background-color: #4f3dd1;
+}
+.page2 .aboutme h5 {
+  font-size: 35px;
+  color: #1d1585;
+  font-weight: 400;
+}
+.page2 .aboutme p {
+  color: #4e517c;
+  font-size: 17px;
+  line-height: 28px;
+  font-family: "Poppins", sans-serif;
+}
+.page2 .aboutme .social li {
+  font-size: 18px;
+  color: #4e517c;
+  font-weight: 400;
+}
+.page2 .aboutme .social li:nth-of-type(1) i {
+  color: #4f3dd1;
+  font-size: 38px;
+  font-weight: 700;
+}
+.page2 .aboutme .social li:nth-of-type(2) i {
+  color: #e74a59;
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.page3 .row .Skill1 h5 {
+  color: #4e517c;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+}
+.page3 .row .Skill1 h5::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 90%;
+  height: 5px;
+  border-radius: 10px 0 0 10px;
+  background-color: #4f3dd1;
+}
+.page3 .row .Skill1 h5::before {
+  content: "90%";
+  position: absolute;
+  bottom: 20%;
+  right: 0;
+}
+.page3 .row .Skill1 h5:nth-of-type(2) {
+  position: relative;
+}
+.page3 .row .Skill1 h5:nth-of-type(2)::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 85%;
+  height: 5px;
+  border-radius: 10px 0 0 10px;
+  background-color: #4f3dd1;
+}
+.page3 .row .Skill1 h5:nth-of-type(2)::before {
+  content: "80%";
+  position: absolute;
+  bottom: 20%;
+  right: 0;
+}
+.page3 .row .Skill1 h5:nth-of-type(3) {
+  position: relative;
+}
+.page3 .row .Skill1 h5:nth-of-type(3)::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 70%;
+  height: 5px;
+  border-radius: 10px 0 0 10px;
+  background-color: #4f3dd1;
+}
+.page3 .row .Skill1 h5:nth-of-type(3)::before {
+  content: "70%";
+  position: absolute;
+  bottom: 20%;
+  right: 0;
+}
+.page3 .row .Skill1 h5:nth-of-type(4) {
+  position: relative;
+}
+.page3 .row .Skill1 h5:nth-of-type(4)::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 70%;
+  height: 5px;
+  border-radius: 10px 0 0 10px;
+  background-color: #4f3dd1;
+}
+.page3 .row .Skill1 h5:nth-of-type(4)::before {
+  content: "70%";
+  position: absolute;
+  bottom: 20%;
+  right: 0;
+}
+.page3 .row .Skill2 h5 {
+  color: #4e517c;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+}
+.page3 .row .Skill2 h5::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 70%;
+  height: 5px;
+  border-radius: 10px 0 0 10px;
+  background-color: #4f3dd1;
+}
+.page3 .row .Skill2 h5::before {
+  content: "70%";
+  position: absolute;
+  bottom: 20%;
+  right: 0;
+}
+.page3 .row .Skill2 h5:nth-of-type(2) {
+  position: relative;
+}
+.page3 .row .Skill2 h5:nth-of-type(2)::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 30%;
+  height: 5px;
+  border-radius: 10px 0 0 10px;
+  background-color: #4f3dd1;
+}
+.page3 .row .Skill2 h5:nth-of-type(2)::before {
+  content: "30%";
+  position: absolute;
+  bottom: 20%;
+  right: 0;
+}
+.page3 .row .Skill2 h5:nth-of-type(3) {
+  position: relative;
+}
+.page3 .row .Skill2 h5:nth-of-type(3)::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 10%;
+  height: 5px;
+  border-radius: 10px 0 0 10px;
+  background-color: #4f3dd1;
+}
+.page3 .row .Skill2 h5:nth-of-type(3)::before {
+  content: "0%";
+  position: absolute;
+  bottom: 20%;
+  right: 0;
+}
+.page3 .row .Skill2 h5:nth-of-type(4) {
+  position: relative;
+}
+.page3 .row .Skill2 h5:nth-of-type(4)::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 10%;
+  height: 5px;
+  border-radius: 10px 0 0 10px;
+  background-color: #4f3dd1;
+}
+.page3 .row .Skill2 h5:nth-of-type(4)::before {
+  content: "0%";
+  position: absolute;
+  bottom: 20%;
+  right: 0;
+}
+
+.page4 .row .titelsec2 h2 {
+  color: #1d1585;
+  font-family: "Roboto", sans-serif;
+}
+.page4 .row .social1 div:nth-of-type(1) li {
+  font-size: 25px;
+  color: #000;
+}
+.page4 .row .social1 div:nth-of-type(1) li i {
+  color: aqua;
+}
+.page4 .row .social1 div:nth-of-type(2) li {
+  font-size: 25px;
+  color: #000;
+}
+.page4 .row .social1 div:nth-of-type(2) li i {
+  color: #e74a59;
+}
+.page4 .row .social1 div:nth-of-type(3) li {
+  font-size: 25px;
+  color: #000;
+}
+.page4 .row .social1 div:nth-of-type(3) li i {
+  color: #4f3dd1;
+}
+.page4 .row .social1 div p {
+  color: #4e517c;
+}
+.page4 .row .social1 .social2 div:nth-of-type(1) li {
+  font-size: 25px;
+  color: #000;
+}
+.page4 .row .social1 .social2 div:nth-of-type(1) li i {
+  color: rgb(253, 148, 24);
+}
+.page4 .row .social1 .social2 div:nth-of-type(2) li {
+  font-size: 25px;
+  color: #000;
+}
+.page4 .row .social1 .social2 div:nth-of-type(2) li i {
+  color: #4f3dd1;
+}
+.page4 .row .social1 .social2 div:nth-of-type(3) li {
+  font-size: 25px;
+  color: #000;
+}
+.page4 .row .social1 .social2 div:nth-of-type(3) li i {
+  color: rgb(251, 20, 183);
+}
+
+.page5 .row figure {
+  width: 450px;
+  height: 500px;
+  overflow: hidden;
+}
+.page5 .row figure img {
+  width: 70%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50px;
+}
+.page5 .row .about h2 {
+  font-size: 47px;
+  color: #1d1585;
+  font-family: "Roboto", sans-serif;
+}
+.page5 .row .about h3 {
+  color: #4e517c;
+  font-size: 25px;
+}
+.page5 .row .about p {
+  color: #4e517c;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+}
+.page5 .row .about h5 {
+  color: 0;
+  font-size: 22px;
+}
+.page5 .row .about h5 span {
+  color: #4e517c;
+}
+.page5 .row .about h4 {
+  color: #e74a59;
+}
+.page5 .row .about .contact a > * {
+  font-size: 25px;
+}
+.page5 .row .about .contact a:nth-of-type(1) {
+  color: #000;
+}
+.page5 .row .about .contact a:nth-of-type(2) {
+  color: rgb(14, 152, 231);
+}
+.page5 .row .about .contact a:nth-of-type(3) {
+  color: rgb(211, 22, 22);
+}
+.page5 .row .about .contact a:nth-of-type(4) {
+  color: rgb(14, 152, 231);
+}
+
+.page6 .row .project .figure-img2 {
+  position: relative;
+  width: 350px;
+  overflow: hidden;
+}
+.page6 .row .project .figure-img2 img {
+  border-radius: 15px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.page6 .row .project .figure-img2:hover > div {
+  opacity: 1;
+  visibility: visible;
+}
+.page6 .row .project .figure-img2 div {
+  position: absolute;
+  opacity: 0;
+  top: 32%;
+  left: 43%;
+  visibility: hidden;
+  transition: 0.4s;
+}
+.page6 .row .project .figure-img2 div a i {
+  font-size: 40px;
+  color: white;
+}
+.page6 .row .project .figure-img2 .background-black {
+  background-color: rgba(0, 0, 0, 0.5882352941);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: 0.4s;
+  border-radius: 15px;
+}
+
+.footer .row h4 {
+  color: #47416f;
+  position: relative;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 30px;
+}
+.footer .row h4::after {
+  content: "";
+  position: absolute;
+  top: 17px;
+  right: -60px;
+  width: 50px;
+  height: 2px;
+  background-color: #4f3dd1;
+}
+.footer .row h2 {
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  color: #1d1585;
+}
+
+.footer .row .Touch input:nth-of-type(1) {
+  border: none;
+  border-bottom: 2px solid rgba(90, 90, 92, 0.3294117647);
+  font-size: 20px;
+  color: rgba(90, 90, 92, 0.5254901961);
+  outline: none;
+  background-color: inherit;
+}
+.footer .row .Touch input:nth-of-type(1):hover {
+  border-bottom: 2px solid #4f3dd1;
+}
+.footer .row .Touch input:nth-of-type(2) {
+  border: none;
+  border-bottom: 2px solid rgba(90, 90, 92, 0.3294117647);
+  font-size: 20px;
+  color: rgba(90, 90, 92, 0.5254901961);
+  outline: none;
+  background-color: inherit;
+}
+.footer .row .Touch input:nth-of-type(2):hover {
+  border-bottom: 2px solid #4f3dd1;
+}
+.footer .row .Touch input:nth-of-type(3) {
+  border: none;
+  border-bottom: 2px solid rgba(90, 90, 92, 0.3294117647);
+  font-size: 20px;
+  color: rgba(90, 90, 92, 0.5254901961);
+  outline: none;
+  background-color: inherit;
+}
+.footer .row .Touch input:nth-of-type(3):hover {
+  border-bottom: 2px solid #4f3dd1;
+}
+.footer .row .Touch input:nth-of-type(4) {
+  border: none;
+  border-bottom: 2px solid rgba(90, 90, 92, 0.3294117647);
+  font-size: 20px;
+  color: rgba(90, 90, 92, 0.5254901961);
+  padding: 50px;
+  outline: none;
+  background-color: inherit;
+}
+.footer .row .Touch input:nth-of-type(4) .type {
+  color: black !important;
+}
+.footer .row .Touch input:nth-of-type(4):hover {
+  border-bottom: 2px solid #4f3dd1;
+}
+.footer .row .Touch div button {
+  border-radius: 3rem 0 3rem 3rem;
+  background-color: #4f3dd1;
+  padding: 10px 30px;
+  color: white;
+  font-weight: 500;
+  border: none;
+}
+.footer .row .social4 div div:nth-of-type(1) i {
+  color: #4f3dd1;
+  font-size: 30px;
+}
+.footer .row .social4 div div:nth-of-type(1) p {
+  font-size: 25px;
+}
+.footer .row .social4 div div:nth-of-type(2) i {
+  color: #e74a59;
+  font-size: 30px;
+}
+.footer .row .social4 div div:nth-of-type(2) p {
+  font-size: 25px;
+}
+.footer .row .social4 div div:nth-of-type(3) i {
+  color: #32d113;
+  font-size: 30px;
+}
+.footer .row .social4 div div:nth-of-type(3) p {
+  font-size: 25px;
+}
+.footer .row .footer-end {
+  border-top: 1px solid #4f3dd1;
+}
+.footer .row .footer-end h5 {
+  font-size: 20px;
+  color: #4e517c;
+}
+.footer .row .footer-end div a:nth-of-type(1) {
+  color: #000;
+  font-size: 22px;
+  transition: 0.4s;
+}
+.footer .row .footer-end div a:nth-of-type(1):hover {
+  color: #4f3dd1;
+}
+.footer .row .footer-end div a:nth-of-type(2) {
+  color: rgb(48, 207, 207);
+  font-size: 22px;
+  transition: 0.4s;
+}
+.footer .row .footer-end div a:nth-of-type(2):hover {
+  color: #4f3dd1;
+}
+.footer .row .footer-end div a:nth-of-type(3) {
+  color: rgb(206, 30, 30);
+  font-size: 22px;
+  transition: 0.4s;
+}
+.footer .row .footer-end div a:nth-of-type(3):hover {
+  color: #4f3dd1;
+}/*# sourceMappingURL=master.css.map */
