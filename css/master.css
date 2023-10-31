@@ -372,6 +372,9 @@ a {
   color: #1d1585;
   font-family: "Roboto", sans-serif;
 }
+.page4 .row .social1 div:nth-of-type(1) {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
 .page4 .row .social1 div:nth-of-type(1) li {
   font-size: 25px;
   color: #000;
@@ -379,12 +382,18 @@ a {
 .page4 .row .social1 div:nth-of-type(1) li i {
   color: aqua;
 }
+.page4 .row .social1 div:nth-of-type(2) {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
 .page4 .row .social1 div:nth-of-type(2) li {
   font-size: 25px;
   color: #000;
 }
 .page4 .row .social1 div:nth-of-type(2) li i {
   color: #e74a59;
+}
+.page4 .row .social1 div:nth-of-type(3) {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 .page4 .row .social1 div:nth-of-type(3) li {
   font-size: 25px;
@@ -402,6 +411,9 @@ a {
 }
 .page4 .row .social1 .social2 div:nth-of-type(1) li i {
   color: rgb(253, 148, 24);
+}
+.page4 .row .social1 .social2 div:nth-of-type(2) {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 .page4 .row .social1 .social2 div:nth-of-type(2) li {
   font-size: 25px;
@@ -469,6 +481,10 @@ a {
   color: rgb(14, 152, 231);
 }
 
+.page6 .row .project {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  border-radius: 5px;
+}
 .page6 .row .project .figure-img2 {
   position: relative;
   width: 350px;

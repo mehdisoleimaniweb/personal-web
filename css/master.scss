@@ -425,7 +425,9 @@ body{
         .social1{
             div{
                 &:nth-of-type(1){
+                box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
                     li{
+                        
                         font-size: 25px;
                         color: #000;
                         i{
@@ -434,6 +436,8 @@ body{
                     }
                 }
                 &:nth-of-type(2){
+                box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
                         li{
                             font-size: 25px;
                             color: #000;
@@ -443,6 +447,8 @@ body{
                         }
                 }
                 &:nth-of-type(3){
+                box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
                         li{
                             font-size: 25px;
                             color: #000;
@@ -467,6 +473,8 @@ body{
                         }
                 }
                 &:nth-of-type(2){
+                box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
                         li{
                             font-size: 25px;
                             color: #000;
@@ -551,7 +559,10 @@ body{
 .page6{
     .row{
         .project{
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+            border-radius: 5px;
             .figure-img2{
+
                 position: relative;
                 width: 350px;
                 overflow: hidden;
